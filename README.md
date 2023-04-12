@@ -18,3 +18,12 @@ pip3 install -r requirements.txt
 * Run the command with the input CSV as file path `./data_preprocessing.py -f "path/to/file"`
 
 This creates a file called 'preprocessed_dataset.csv' that contains the preprocessed data
+
+## Frontend logic
+
+## Run the below commands to start the react application
+
+```
+npm install
+npm start
+```
