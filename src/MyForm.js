@@ -5,6 +5,7 @@ function MyForm() {
   const [textValue, setTextValue] = useState('');
   const [dropdownValue, setDropdownValue] = useState('SVM');
   const [sentiment, setSentiment] = useState('');
+  const [confidenceScore, setConfidenceScore] = useState('')
 
   const handleTextChange = (event) => {
     setTextValue(event.target.value);
@@ -35,6 +36,7 @@ function MyForm() {
         console.log("Response from server:", data);
         // handle server response
         setSentiment(data.sentiment)
+        setConfidenceScore(data.confidence_score)
       })
       .catch((error) => {
         console.error("Error sending request to server:", error);
@@ -67,6 +69,9 @@ function MyForm() {
       </div>
       <div className="sentiment">
         Sentiment: {sentiment}
+      </div>
+      <div className="sentiment">
+        Confidence Score: {confidenceScore}
       </div>
     </div>
   );
