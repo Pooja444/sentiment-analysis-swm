@@ -1,0 +1,28 @@
+tweet1 = ''' Just had the best day ever at the beach! Sun, sand, and waves. Can't wait to go back! #summerfun #beachday  '''
+
+1 
+Positive 0.785534375
+
+
+tweet2 = ''' Feeling so frustrated with this never-ending traffic. Why does it always have to be this way? #trafficwoes #ugh  '''
+
+0
+Negative 0.785534375
+
+
+tweet3 = ''' Just got my dream job offer! So excited to start this new chapter in my life. #dreamjob #careermove  '''
+
+1
+Positive 0.785534375
+
+
+tweet4 = ''' The film does a good job of balancing this large cast and it’s just a fun superhero movie with a lot of heart.  '''
+
+1
+Positive 0.785534375
+
+
+tweet5 = ''' So disappointed with the customer service at this store. They were rude and unhelpful. #customerservicefail #disappointed  '''
+
+0
+Negative 0.785534375
