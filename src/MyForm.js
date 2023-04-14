@@ -56,7 +56,6 @@ function MyForm() {
           <label>
             Select the Machine Learning Model:
             <select value={dropdownValue} onChange={handleDropdownChange}>
-              <option value="All Models">All models</option>
               <option value="SVM">SVM</option>
               <option value="RNN">RNN</option>
               <option value="Naive Bayes">Naive Bayes</option>

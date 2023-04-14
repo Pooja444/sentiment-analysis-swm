@@ -38,13 +38,6 @@ stopWords = set(stopwords.words("english"))
 DATASET_COLUMNS = ["target", "ids", "date", "flag", "user", "text"]
 DATASET_ENCODING = "ISO-8859-1"
 
-POSITIVE = "POSITIVE"
-NEGATIVE = "NEGATIVE"
-NEUTRAL = "NEUTRAL"
-SENTIMENT_THRESHOLDS = (0.4, 0.7)
-
-KERAS_MODEL = "model.h5"
-
 df = pd.read_csv(
     file_path,
     encoding=DATASET_ENCODING,
