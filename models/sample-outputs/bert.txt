@@ -1,0 +1,36 @@
+predict("Just had the best day ever at the beach! Sun, sand, and waves. Can't wait to go back! #summerfun #beachday")
+
+{'label': 'POSITIVE',
+ 'score': 0.9870897531509399,
+ 'elapsed_time': 1.0636332035064697}
+
+
+ predict("Feeling so frustrated with this never-ending traffic. Why does it always have to be this way? #trafficwoes #ugh")
+
+
+ {'label': 'NEGATIVE',
+ 'score': 0.003583848476409912,
+ 'elapsed_time': 1.0315337181091309}
+
+
+predict("Just got my dream job offer! So excited to start this new chapter in my life. #dreamjob #careermove")
+
+
+{'label': 'POSITIVE',
+ 'score': 0.9832967519760132,
+ 'elapsed_time': 1.047736644744873}
+
+
+ predict("The film does a good job of balancing this large cast and it’s just a fun superhero movie with a lot of heart.")
+
+ {'label': 'POSITIVE',
+ 'score': 0.9945693016052246,
+ 'elapsed_time': 0.935859203338623}
+
+
+
+predict("So disappointed with the customer service at this store. They were rude and unhelpful. #customerservicefail #disappointed")
+
+{'label': 'NEGATIVE',
+ 'score': 0.0036315321922302246,
+ 'elapsed_time': 1.018143653869629}
