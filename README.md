@@ -19,11 +19,19 @@ pip3 install -r requirements.txt
 
 This creates a file called 'preprocessed_dataset.csv' that contains the preprocessed data
 
-## Frontend logic
+## Frontend server
 
 ## Run the below commands to start the react application
 
 ```
 npm install
 npm start
+```
+
+## Backend server
+
+## Run the below command to start the flask server
+
+```
+./server.py
 ```
