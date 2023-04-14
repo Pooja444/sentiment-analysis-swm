@@ -2,6 +2,8 @@ venv
 preprocessed_dataset.csv
 training.1600000.processed.noemoticon.csv
 
+__pycache__
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies

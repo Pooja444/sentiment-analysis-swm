@@ -91,4 +91,4 @@ print("\nData after preprocessing...")
 
 print(df.head())
 
-df.to_csv("preprocessed_dataset.csv", index=False, header=False)
+df.to_csv("preprocessed_dataset.csv", index=False)
