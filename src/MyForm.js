@@ -70,7 +70,7 @@ function MyForm() {
         Sentiment: {sentiment}
       </div>
       <div className="sentiment">
-        Confidence Score: {confidenceScore}
+        Score: {confidenceScore}
       </div>
     </div>
   );
