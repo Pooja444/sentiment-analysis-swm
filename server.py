@@ -44,7 +44,7 @@ def predict_tweet():
     json_data = request.get_json(force=True)
     model = json_data["model"]
     tweet = json_data["tweet"]
-    result = predictData(model, tweet)
+    result = predict(model, tweet)
     return {
         "sentiment": result["label"],
         "confidence_score": result["score"],
@@ -142,11 +142,6 @@ def predict(text, model, include_neutral=False):
         score = "0"
 
     return {"label": label, "score": score}
-
-
-def predictData(model, tweet):
-    pickled_model = pickle.load(open(f"./models/pickle-files/{model}.pkl", "rb"))
-    return pickled_model.predict(tweet)
 
 
 app.run(port=5000)
