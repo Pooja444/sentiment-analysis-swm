@@ -19,6 +19,10 @@ pip3 install -r requirements.txt
 
 This creates a file called 'preprocessed_dataset.csv' that contains the preprocessed data
 
+### Pickle files -
+
+Naive Bayes: https://drive.google.com/file/d/156ySQ004JB_FcvL7l31iHTqYDiWKAWcu/view?usp=sharing
+
 ## Frontend server
 
 ## Run the below commands to start the react application
