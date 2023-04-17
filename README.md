@@ -23,6 +23,10 @@ This creates a file called 'preprocessed_dataset.csv' that contains the preproce
 
 Naive Bayes: https://drive.google.com/file/d/156ySQ004JB_FcvL7l31iHTqYDiWKAWcu/view?usp=sharing
 
+BERT: https://drive.google.com/file/d/1dD6fCwtPuVPzCHCsj5h4XROr8gOPK147/view?usp=share_link
+
+The above pickle files of pre-trained models have to be downloaded and placed in models/pkl/ folder.
+
 ## Frontend server
 
 ## Run the below commands to start the react application
