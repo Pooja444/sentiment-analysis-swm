@@ -50,7 +50,9 @@ function MyForm() {
         <form onSubmit={handleSubmit}>
           <label>
             Enter Tweet:
-            <input type="text" value={textValue} onChange={handleTextChange} />
+            <br></br>
+            <br></br>
+            <textarea class="input-tweet" value={textValue} onChange={handleTextChange} />
           </label>
           <br />
           <label>

@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.input-tweet {
+  min-width: 500px;
+  min-height: 75px;
+}
