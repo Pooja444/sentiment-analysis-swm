@@ -62,6 +62,9 @@ def removeURL(text):
     return url.sub(r"", text)
 
 
+
+
+
 def removeHTML(text):
     html = re.compile(r"<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});")
     return re.sub(html, "", text)
